@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/index.js';
 import { useState } from 'react';
 import styled from "styled-components";
 import HeroSection from './components/HeroSection/index';
+import Skills from './components/Skills';
 
 
 const Body = styled.div`
@@ -31,6 +32,9 @@ function App() {
         <Navbar />
         <Body>
           <HeroSection/>
+          <Wrapper>
+            <Skills/>
+          </Wrapper>
         </Body>
       </Router>
       </ThemeProvider>
