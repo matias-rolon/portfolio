@@ -199,5 +199,73 @@ export const ResumeButton = styled.a`
         padding: 12px 0;
         font-size: 18px;
     } 
+`
+export const ContainButtons = styled.div`
+    display: flex;
+    gap: 10px;
+  @media screen and (max-width: 768px) {
+    display:block;
+    width: 100%;
+  }
+`
 
-`;
+export const ButtonGit = styled.a`
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    max-width: 300px;
+    padding: 16px 0;
+    padding-left: 30px;
+    color:${({ theme }) => theme.white};
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out !important;
+    background-color: #1c1e27;
+    gap: 10px;
+    &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    }    
+    
+    
+    
+    
+`
+export const ButtonLinkedin = styled.a`
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    max-width: 300px;
+    padding: 16px 0;
+    padding-left: 30px;
+    color:${({ theme }) => theme.white};
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out !important;
+    background-color: #006699;
+    gap: 5px;
+    &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    }    
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+  }
+  
+`

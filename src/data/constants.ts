@@ -4,10 +4,10 @@ export const Bio = {
       "Full Stack Developer",
       "Android Developer",
       "UI/UX Designer",
-      "Programmer",
+      "Programador",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      " Soy un desarrollador de software con experiencia en frontend y backend, versátil en plataformas y lenguajes. Actualizado en las últimas herramientas y procedimientos, destaco por mi capacidad para trabajar tanto de manera independiente como en equipo.",
     github: "https://github.com/matias-rolon",
     resume:
       "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",

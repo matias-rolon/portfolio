@@ -1,8 +1,10 @@
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ContainButtons, ButtonGit, ButtonLinkedin } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const HeroSection = () => {
     return (
@@ -13,9 +15,9 @@ const HeroSection = () => {
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
+                        <Title>Hola, soy <br /> {Bio.name}</Title>
                         <TextLoop>
-                            I am a
+                            
                             <Span>
                                 <Typewriter
                                     options={{
@@ -27,7 +29,10 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <ContainButtons>
+                            <ButtonGit href={Bio.resume} target='display'><GitHubIcon/> matias-rolon</ButtonGit>
+                            <ButtonLinkedin href={Bio.resume} target='display'><LinkedInIcon/> Matias Rolon</ButtonLinkedin>
+                        </ContainButtons>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
