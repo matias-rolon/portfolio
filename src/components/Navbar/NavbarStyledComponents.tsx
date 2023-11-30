@@ -51,11 +51,10 @@ export const NavItems = styled.ul`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:end;
     gap: 32px;
     padding: 0 6px;
     list-style: none;
-
     @media screen and (max-width: 768px) {
       display: none;
     }
@@ -135,16 +134,15 @@ export const MobileMenu = styled.div<MobileMenuProps>`
     position: absolute;
     top: 80px;
     right: 0;
-    width: 100%;
     padding: 12px 40px 24px 40px;
     background: ${({ theme }) => theme.card_light+99};
-    transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }:any) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     opacity: ${({ isOpen }:any) => (isOpen ? '100%' : '0')};
     z-index: ${({ isOpen }:any) => (isOpen ? '1000' : '-1000')};
-
+    width: 90%;
+    transition: all 0.6s ease-in-out;
 `
 
 export const MobileMenuItems = styled.ul`
