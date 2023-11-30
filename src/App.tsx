@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects/index.js';
 import Education from './components/Education/index.js';
 import Contact from './components/Contact/index';
+import Footer from './components/Footer/index';
 
 
 
@@ -44,6 +45,7 @@ function App() {
             <Education/>
             <Contact/>
           </Wrapper>
+          <Footer/>
         </Body>
       </Router>
       </ThemeProvider>
