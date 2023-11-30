@@ -8,6 +8,7 @@ import styled from "styled-components";
 import HeroSection from './components/HeroSection/index';
 import Skills from './components/Skills';
 import Projects from './components/Projects/index.js';
+import Education from './components/Education/index.js';
 
 
 
@@ -38,6 +39,9 @@ function App() {
             <Skills/>
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Education/>
+          </Wrapper>
         </Body>
       </Router>
       </ThemeProvider>
