@@ -28,7 +28,6 @@ const Wrapper = styled.div`
 function App() {
 
   const [darkMode, setDarkMode] = useState(true);
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
 
   return (
     <>
@@ -40,7 +39,7 @@ function App() {
           <Wrapper>
             <Skills/>
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Projects/>
           <Wrapper>
             <Education/>
             <Contact/>

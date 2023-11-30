@@ -158,10 +158,6 @@ interface Project {
 
 interface Props{
     project: Project
-    setOpenModal: React.Dispatch<React.SetStateAction<{
-    state: boolean;
-    project: Project;
-}>>
 }
 
 const ProjectCards = ({project}:Props) => {
@@ -169,7 +165,7 @@ const ProjectCards = ({project}:Props) => {
         <Card>
             <Image src={project.image}/>
             <Tags>
-                {project.tags?.map((tag, index) => (
+                {project.tags?.map((tag, _) => (
                 <Tag>{tag}</Tag>
                 ))}
             </Tags>

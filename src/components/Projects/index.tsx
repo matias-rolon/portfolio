@@ -3,16 +3,15 @@ import ProjectCard from '../Cards/ProjectCard'
 import { projects } from '../../data/constants'
 
 
-const Projects = ({setOpenModal}:any) => {
+const Projects = () => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Proyectos</Title>
         <CardContainer>
           {projects.map((project) => (
-              <ProjectCard project={project} setOpenModal={setOpenModal}/>
+              <ProjectCard project={project}/>
             ))}
-          
         </CardContainer>
       </Wrapper>
     </Container>

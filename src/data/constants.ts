@@ -189,7 +189,7 @@ export const Bio = {
       title: "Portfolio personal",
       date: "Feb 2023 - Jul 2023",
       description:
-        "Este proyecto implica la creación de un portafolio personal utilizando Angular. Se ha desarrollado una API con Spring Boot para facilitar operaciones CRUD. Al iniciar sesión, se puede realizar estas operaciones en diversas secciones del portafolio.",
+        "Desarrollé un proyecto de creación de portafolio personal con Angular, respaldado por una API Spring Boot que facilita operaciones CRUD. Los usuarios pueden iniciar sesión para realizar estas acciones en varias secciones del portafolio",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/AP-home.jpg?raw=true",
       tags: [
@@ -197,7 +197,6 @@ export const Bio = {
         "Spring Boot",
         "MySQL",
         "Firebase",
-        "Render",
       ],
       category: "web app",
       github: "https://github.com/matias-rolon/portfolio-FrontEnd",
@@ -219,7 +218,7 @@ export const Bio = {
       title: "Página para taller de eléctronica",
       date: "Jul 2023 - Nov 2023",
       description:
-        "He creado una página web para el taller de electrónica de mi escuela técnica. En esta plataforma, se exhiben los diversos proyectos realizados por los alumnos en sus respectivas materias. La página proporciona una visión integral de las creaciones y trabajos desarrollados en el taller, ofreciendo un espacio digital para compartir y destacar los logros de los estudiantes.",
+        "Creé una página web para el taller de electrónica en mi escuela técnica, donde los alumnos pueden mostrar sus proyectos en diversas materias. La plataforma destaca los logros y ofrece un espacio digital para compartir trabajos",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/pag-escuela-home.png?raw=true",
       tags: [
