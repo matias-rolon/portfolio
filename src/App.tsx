@@ -7,6 +7,8 @@ import { useState } from 'react';
 import styled from "styled-components";
 import HeroSection from './components/HeroSection/index';
 import Skills from './components/Skills';
+import Projects from './components/Projects/index.js';
+
 
 
 const Body = styled.div`
@@ -35,6 +37,7 @@ function App() {
           <Wrapper>
             <Skills/>
           </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
         </Body>
       </Router>
       </ThemeProvider>
