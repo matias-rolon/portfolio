@@ -9,6 +9,7 @@ import HeroSection from './components/HeroSection/index';
 import Skills from './components/Skills';
 import Projects from './components/Projects/index.js';
 import Education from './components/Education/index.js';
+import Contact from './components/Contact/index';
 
 
 
@@ -41,6 +42,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education/>
+            <Contact/>
           </Wrapper>
         </Body>
       </Router>
