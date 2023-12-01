@@ -99,7 +99,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Others",
+      title: "Otros",
       skills: [
         {
           name: "Git",
