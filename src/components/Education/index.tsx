@@ -69,10 +69,10 @@ const index = () => {
     return (
         <Container id="education">
             <Wrapper>
-                <Title>Education</Title>
+                <Title>Educación</Title>
                 <TimelineSection>
                     <Timeline>
-                        {education.map((education,index) => (
+                        {education.map((education,_) => (
                             <TimelineItem >
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <EducationCard education={education}/>

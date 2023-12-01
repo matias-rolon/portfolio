@@ -189,7 +189,7 @@ export const Bio = {
       title: "Portfolio personal",
       date: "Feb 2023 - Jul 2023",
       description:
-        "Desarrollé un proyecto de creación de portafolio personal con Angular, respaldado por una API Spring Boot que facilita operaciones CRUD. Los usuarios pueden iniciar sesión para realizar estas acciones en varias secciones del portafolio",
+        "Portafolio Angular con API Spring Boot para CRUD. Inicio de sesión para usuarios en varias secciones",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/AP-home.jpg?raw=true",
       tags: [
@@ -218,7 +218,7 @@ export const Bio = {
       title: "Página para taller de eléctronica",
       date: "Jul 2023 - Nov 2023",
       description:
-        "Creé una página web para el taller de electrónica en mi escuela técnica, donde los alumnos pueden mostrar sus proyectos en diversas materias. La plataforma destaca los logros y ofrece un espacio digital para compartir trabajos",
+        "Página web escolar destaca proyectos de electrónica, brinda espacio para compartir logros y trabajos de los alumnos.",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/pag-escuela-home.png?raw=true",
       tags: [
@@ -235,7 +235,7 @@ export const Bio = {
       title: "Pagina para AMK",
       date: "Jul 2023 - Actualidad",
       description:
-        "Página web de ferretería con dos pantallas principales: visión general y visualización de productos. Backoffice para modificar eficientemente la base de datos en Firebase, asegurando una experiencia óptima del catálogo para los usuarios.",
+        "Web ferretería: pantallas visión general y productos, backoffice eficiente en Firebase para mejorar experiencia catálogo.",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/ferreteria.png?raw=true",
       tags: ["React", "Firebase", "Bootsrap",],
@@ -248,7 +248,7 @@ export const Bio = {
       title: "Paquete npm",
       date: "Sep 2022",
       description:
-        "Este proyecto consiste en la creación de una tarjeta para un producto. El objetivo principal fue adquirir conocimientos sobre cómo implementar un paquete de npm en un entorno React.",
+        "Desarrollo de tarjeta de producto en React, enfocado en aprender la implementación de paquetes npm.",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/paquete-npm.png?raw=true",
       tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
@@ -260,7 +260,7 @@ export const Bio = {
       title: "Red Social",
       date: "Abr 2023 - Ago 2023",
       description:
-        "App en React Native: red social en proceso, sin backend completo. Pantallas operativas incluyen mensajes, búsqueda de usuarios y perfil con edición de publicaciones y datos de cuenta. Aunque falta desarrollo en el backend, ya ofrece una experiencia inicial con funciones esenciales.",
+        "App React Native: red social en desarrollo, backend incompleto. Funciones operativas: mensajes, búsqueda usuarios, perfil con edición publicaciones. Experiencia inicial a pesar de limitaciones backend.",
       image:
         "https://github.com/matias-rolon/img-proyectos/blob/main/red-social.png?raw=true",
       tags: ["React Native", "JavaScript", "Axios"],

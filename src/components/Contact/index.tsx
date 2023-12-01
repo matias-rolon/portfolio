@@ -43,18 +43,6 @@ margin-top: 20px;
   }
 `;
 
-const Desc = styled.div`
-    font-size: 18px;
-    text-align: center;
-    max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 768px) {
-        margin-top: 12px;
-        font-size: 16px;
-    }
-`;
-
-
 const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
@@ -131,7 +119,7 @@ const Contact = () => {
   
     if (form.current) {
       emailjs.sendForm('service_3913kjc', 'template_nkf29gc', form.current, 'wbHk4-m6XblGCDaQb')
-        .then((result) => {
+        .then((_) => {
           setOpen(true);
           form.current?.reset();
         })
@@ -143,15 +131,15 @@ const Contact = () => {
   
 
   return (
-    <Container>
+    <Container id='contact'>
       <Wrapper>
-        <Title>Contact</Title>
+        <Title>Contacto</Title>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="user_email" />
-          <ContactInput placeholder="Your Name" name="user_name" />
-          <ContactInputMessage placeholder="Message" rows={4} name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactTitle>Envíame un email. 📬</ContactTitle>
+          <ContactInput placeholder="Tu Email" name="user_email" />
+          <ContactInput placeholder="Tu Name" name="user_name" />
+          <ContactInputMessage placeholder="Mensaje" rows={4} name="message" />
+          <ContactButton type="submit" value="Enviar" />
         </ContactForm>
         <Snackbar
           open={open}

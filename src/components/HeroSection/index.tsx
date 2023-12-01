@@ -30,8 +30,8 @@ const HeroSection = () => {
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ContainButtons>
-                            <ButtonGit href={Bio.resume} target='display'><GitHubIcon/> matias-rolon</ButtonGit>
-                            <ButtonLinkedin href={Bio.resume} target='display'><LinkedInIcon/> Matias Rolon</ButtonLinkedin>
+                            <ButtonGit href={Bio.github} target='display'><GitHubIcon/> matias-rolon</ButtonGit>
+                            <ButtonLinkedin href={Bio.linkedin} target='display'><LinkedInIcon/> Matias Rolon</ButtonLinkedin>
                         </ContainButtons>
                     </HeroLeftContainer>
 
