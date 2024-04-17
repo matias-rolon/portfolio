@@ -226,6 +226,21 @@ export const Bio = {
       webapp: "https://electronica-tecnica5.web.app/",
     },
     {
+      id: 1,
+      title: "Robot Velocista",
+      date: "Jul 2023 - Nov 2023",
+      description:
+        "El Robot Velocista logró el top 3 en la Liga Nacional Argentina de robótica y el primer puesto en la carrera internacional en Bahía Blanca, gracias al esfuerzo y colaboración del equipo",
+      image:
+        "https://github.com/matias-rolon/img-proyectos/blob/main/velocista.jpg?raw=true",
+      tags: [
+        "C++",
+      ],
+      category: "web app",
+      github: "https://github.com/DERTECH-CORP/Velocista_COYOTE",
+      
+    },
+    {
       id: 2,
       title: "Pagina para AMK",
       date: "Jul 2023 - Actualidad",
